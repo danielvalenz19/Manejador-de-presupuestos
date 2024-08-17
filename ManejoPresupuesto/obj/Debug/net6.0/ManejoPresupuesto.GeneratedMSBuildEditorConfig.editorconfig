@@ -22,12 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Home/NoEncontrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb0VuY29udHJhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/Crear.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENyZWFyLmNzaHRtbA==
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/Error.cshtml]
@@ -36,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/TiposCuentas/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEJvcnJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/TiposCuentas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/TiposCuentas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/TiposCuentas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Repositorios/C\#/ManejoPresupuesto/ManejoPresupuesto/Views/_ViewImports.cshtml]

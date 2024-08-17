@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TipoCuenta>
+@{
+	ViewData["Title"] = "Tipos Cuentas";
+}
+
+<h1>Crear tipo de cuenta</h1>
+<h5>
+	El tipo de cuenta se refiere a cómo podemos agrupar cuentas.
+	Ejemplos: Préstamos, tarjetas de crédito, etc.
+</h5>
+
+<a asp-action="Crear" class="btn btn-primary mb-3">Crear nuevo</a>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Acciones</th>
+			<th>Nombre</th>
+		</tr>
+
+	</thead>
+	<tbody id="reordenable">
+		@foreach (var tipoCuenta in Model)
+		{
+			<tr>
+				<td>
+					<input type="hidden" value="@tipoCuenta.Id" class="ids"/> 
+					<a class="btn btn-primary" asp-action="Editar" asp-route-id="@tipoCuenta.Id">Editar</a>
+					<a class="btn btn-danger" asp-action="Borrar" asp-route-id="@tipoCuenta.Id">Eliminar</a>
+
+				</td>
+				<td>
+					@tipoCuenta.Nombre
+
+				</td>
+
+			</tr>
+		}
+
+	</tbody>
+
+</table>
+
+@section Scripts {
+	<script>
+		const urlOrdenar = '@Url.Action("Ordenar")';
+
+		$(function () {
+			// Inicializar sortable en la tabla
+			$("#reordenable").sortable({
+				stop: async function (e, ui) {
+					// Llamar a la función para actualizar el orden cuando se detiene la ordenación
+					await actualizarOrdenes();
+				}
+			});
+
+			// Función para obtener los IDs y enviarlos al backend
+			async function actualizarOrdenes() {
+				const ids = obtenerIdsDeElementos(); // Obtener los IDs de los elementos ordenados
+				await enviarIdsAlBackEnd(ids); // Enviar los IDs al backend
+			}
+
+			// Función para enviar los IDs al backend usando fetch
+			async function enviarIdsAlBackEnd(ids) {
+				const data = JSON.stringify(ids); // Convertir los IDs a JSON
+
+				await fetch(urlOrdenar, {
+					method: 'POST',
+					body: data,
+					headers: {
+						'Content-Type': 'application/json' // Establecer el tipo de contenido como JSON
+					}
+				});
+			}
+
+			// Función para obtener los IDs de los elementos ordenados en la tabla
+			function obtenerIdsDeElementos() {
+				const ids = $(".ids").map(function () {
+					return $(this).val(); // Obtener el valor del input hidden
+				}).get();
+				return ids; // Devolver los IDs como un array
+			}
+		});
+	</script>
+}
+
+ 

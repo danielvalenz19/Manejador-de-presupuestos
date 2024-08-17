@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ManejoPresupuesto.bundle.scp.css"
     },
     {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -195,6 +199,82 @@
     {
       "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\index.html"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-ui\\jquery-ui-1.13.3\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui-1.13.3\\package.json"
     },
     {
       "Id": "C:\\Repositorios\\C#\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ManejoPresupuesto.Views.Validaciones;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace ManejoPresupuesto.Models
 {
@@ -6,9 +8,10 @@ namespace ManejoPresupuesto.Models
 	{
         public int Id { get; set; }
 		[Required(ErrorMessage ="El campo {0} es requerido")]
-		[StringLength(maximumLength:50, MinimumLength = 3, ErrorMessage ="La longitud del campo {0} debe de estar {2}")]
+		[PrimeraLetraMayuscula]
+        [Remote (action: "VerificarExisteTipoCuenta", controller: "TiposCuentas")]
 		public string Nombre { get; set; }
-		public int Usuario { get; set; }
+		public int UsuarioId { get; set; }
 		public int Orden { get; set; }
 
 	}
