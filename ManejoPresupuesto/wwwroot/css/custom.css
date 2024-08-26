@@ -1,3 +1,27 @@
 ﻿#reordenable tr{
     cursor:move;
-}.
+}
+
+.contenedor-totales {
+ display: flex;
+justify-content: space-around;
+font-size: 26px;
+text-align: center; 
+}
+
+.Activo{
+    color: blue;
+}
+.Pasivo{
+    color:red;
+}
+
+.acordeon-cuentas button{
+    color: black !important;
+    font-size: 20px;
+}
+.acordeon-cuentas button > span{
+    display: flex;
+    justify-content : space-between;
+    width: 100%;
+}//no funciona esta parte debo de saber porque pero ire a almorzar 
